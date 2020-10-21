@@ -17,7 +17,7 @@
     <img alt="Stargazers" src="https://img.shields.io/github/stars/paulop2/Happy-NLW3?style=social">
   </a>
 
-  <a href="https://rocketseat.com.br">
+  <a href="https://blog.rocketseat.com.br/como-fazer-um-bom-readme/">
     <img alt="Template" src="https://img.shields.io/badge/Template%20por-Blog Rocketseat-%237519C1">
   </a>
   
@@ -26,9 +26,15 @@
  
 </p>
 <h1 align="center">
-    <img alt="Happy" title="#Happy" src="./assetsReadme/Local.svg" />
-    <p align="center">Happy</p>
+    <img alt="Happy" title="#Happy" src="./assetsReadme/webMarker.svg" width="100px"/>
+    <p align="center">
+    <strong>happy</strong>
+    </p>
 </h1>
+
+<p align="center">
+  <img alt="Happy" src="./assetsReadme/banner.png" width="100%">
+</p>
 
 
 
@@ -68,8 +74,9 @@ O NLW é uma experiência online com muito conteúdo prático, desafios e hacks 
 
 
 - [x] Os usuários tem acesso ao aplicativo móvel, onde podem:
-  - [x] navegar pelo mapa para ver as instituições cadastradas
-  - [x] entrar em contato com a entidade através do WhatsApp e visualizar as informações cadastradas
+  - [x] cadastrar uma nova entidade;
+  - [x] navegar pelo mapa para ver as instituições cadastradas;
+  - [x] entrar em contato com a entidade através do WhatsApp e visualizar as informações cadastradas;
 
 ---
 
@@ -86,20 +93,16 @@ O layout da aplicação está disponível no Figma:
 </a>
 
 
-### Mobile
-
-<p align="center">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/home-mobile.png" width="200px">
-
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/detalhes-mobile.svg" width="200px">
-</p>
-
 ### Web
 
-<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/web.svg" width="400px">
+<p align="center" style="justify-content: center;">
+  <img alt="NextLevelWeek"  title="#NextLevelWeek" src="./assetsReadme/webMap.png" width="400px">
 
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/sucesso-web.svg" width="400px">
+
+</p>
+
+<p align="center" style="justify-content: center;">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assetsReadme/webProfile.png" width="400px">
 </p>
 
 ---
@@ -116,7 +119,11 @@ Este projeto é divido em três partes:
 ### Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+- [Git](https://git-scm.com), 
+- [Node.js](https://nodejs.org/en/),
+- [Yarn](https://classic.yarnpkg.com/),
+- [Expo](https://expo.io/)
+
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
 #### 🎲 Rodando o Backend (servidor)
@@ -133,17 +140,20 @@ $ cd Happy-NLW3
 $ cd backend
 
 # Instale as dependências
-$ npm install
+$ yarn install
+
+# Use esse script para rodar as dependências
+$ yarn typeorm migration:run
 
 # Execute a aplicação em modo de desenvolvimento
-$ npm run dev:server
+$ yarn dev
 
 # O servidor inciará na porta:3333 - acesse http://localhost:3333 
 
 ```
-<p align="center">
+<!-- <p align="center">
   <a href="https://github.com/tgmarinho/README-ecoleta/blob/master/Insomnia_API_Ecoletajson.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
-</p>
+</p> -->
 
 
 #### 🧭 Rodando a aplicação web (Frontend)
@@ -160,10 +170,10 @@ $ cd Happy-NLW3
 $ cd web
 
 # Instale as dependências
-$ npm install
+$ yarn install
 
 # Execute a aplicação em modo de desenvolvimento
-$ npm run start
+$ yarn start
 
 # A aplicação será aberta na porta:3000 - acesse http://localhost:3000
 
@@ -182,47 +192,40 @@ As seguintes ferramentas foram usadas na construção do projeto:
 -   **[Axios](https://github.com/axios/axios)**
 -   **[Leaflet](https://react-leaflet.js.org/en/)**
 -   **[React Leaflet](https://react-leaflet.js.org/)**
--   **[React Dropzone](https://github.com/react-dropzone/react-dropzone)**
 
-> Veja o arquivo  [package.json](https://github.com/tgmarinho/README-ecoleta/blob/master/web/package.json)
+> Veja o arquivo  [package.json](https://github.com/paulop2/Happy-NLW3/blob/master/web/package.json)
 
-#### [](https://github.com/tgmarinho/Ecoleta#server-nodejs--typescript)**Server**  ([NodeJS](https://nodejs.org/en/)  +  [TypeScript](https://www.typescriptlang.org/))
+#### **Backend**  ([NodeJS](https://nodejs.org/en/)  +  [TypeScript](https://www.typescriptlang.org/))
 
 -   **[Express](https://expressjs.com/)**
 -   **[CORS](https://expressjs.com/en/resources/middleware/cors.html)**
 -   **[TypeORM](https://typeorm.io)**
 -   **[SQLite](https://github.com/mapbox/node-sqlite3)**
--   **[ts-node](https://github.com/TypeStrong/ts-node)**
 -   **[dotENV](https://github.com/motdotla/dotenv)**
 -   **[Multer](https://github.com/expressjs/multer)**
--   **[Celebrate](https://github.com/arb/celebrate)**
 -   **[Joi](https://github.com/hapijs/joi)**
 
-> Veja o arquivo  [package.json](https://github.com/tgmarinho/README-ecoleta/blob/master/server/package.json)
+> Veja o arquivo  [package.json](https://github.com/paulop2/Happy-NLW3/blob/master/backend/package.json)
 
-#### [](https://github.com/tgmarinho/Ecoleta#mobile-react-native--typescript)**Mobile**  ([React Native](http://www.reactnative.com/)  +  [TypeScript](https://www.typescriptlang.org/))
+#### **Mobile**  ([React Native](http://www.reactnative.com/)  +  [TypeScript](https://www.typescriptlang.org/))
 
 -   **[Expo](https://expo.io/)**
 -   **[Expo Google Fonts](https://github.com/expo/google-fonts)**
 -   **[React Navigation](https://reactnavigation.org/)**
 -   **[React Native Maps](https://github.com/react-native-community/react-native-maps)**
 -   **[Expo Constants](https://docs.expo.io/versions/latest/sdk/constants/)**
--   **[React Native SVG](https://github.com/react-native-community/react-native-svg)**
 -   **[Axios](https://github.com/axios/axios)**
 -   **[Expo Location](https://docs.expo.io/versions/latest/sdk/location/)**
--   **[Expo Mail Composer](https://docs.expo.io/versions/latest/sdk/mail-composer/)**
 
-> Veja o arquivo  [package.json](https://github.com/tgmarinho/README-ecoleta/blob/master/mobile/package.json)
+> Veja o arquivo  [package.json](https://github.com/paulop2/Happy-NLW3/blob/master/mobile/package.json)
 
 #### [](https://github.com/tgmarinho/Ecoleta#utilit%C3%A1rios)**Utilitários**
 
 -   Protótipo:  **[Figma](https://www.figma.com/)**  →  **[Protótipo (Ecoleta)](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/Ecoleta)**
 -   SQL Editor: **[Beekeeper Studio](https://github.com/beekeeper-studio/beekeeper-studio/releases)**
--   API:  **[IBGE API](https://servicodados.ibge.gov.br/api/docs/localidades?versao=1)**  →  **[API de UFs](https://servicodados.ibge.gov.br/api/docs/localidades?versao=1#api-UFs-estadosGet)**,  **[API de Municípios](https://servicodados.ibge.gov.br/api/docs/localidades?versao=1#api-Municipios-estadosUFMunicipiosGet)**
+-   API:
 -   Maps:  **[Leaflet](https://react-leaflet.js.org/en/)**
--   Editor:  **[Visual Studio Code](https://code.visualstudio.com/)**  → Extensions:  **[SQLite](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)**
--   Markdown:  **[StackEdit](https://stackedit.io/)**,  **[Markdown Emoji](https://gist.github.com/rxaviers/7360908)**
--   Commit Conventional:  **[Commitlint](https://github.com/conventional-changelog/commitlint)**
+-   Editor:  **[Visual Studio Code](https://code.visualstudio.com/)**  → Extensions:  
 -   Teste de API:  **[Insomnia](https://insomnia.rest/)**
 -   Ícones:  **[Feather Icons](https://feathericons.com/)**,  **[Font Awesome](https://fontawesome.com/)**
 -   Fontes:  **[Nunito](https://fonts.google.com/specimen/Nunito)**
@@ -239,16 +242,16 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ---
 
-## 🦸 Autor
+##  Autor
 
-<a href="https://blog.rocketseat.com.br/author/thiago/">
- <img style="border-radius: 50%;" src="https://avatars3.githubusercontent.com/u/380327?s=460&u=61b426b901b8fe02e12019b1fdb67bf0072d4f00&v=4" width="100px;" alt=""/>
- <br />
- <sub><b>Thiago Marinho</b></sub></a> <a href="https://blog.rocketseat.com.br/author/thiago/" title="Rocketseat">🚀</a>
+
+ <sub><b>Paulo Vitor de Souza</b></sub></a> <a href="https://blog.rocketseat.com.br/author/thiago/" title="Rocketseat"></a>
  <br />
 
-[![Twitter Badge](https://img.shields.io/badge/-@tgmarinho-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/tgmarinho)](https://twitter.com/tgmarinho) [![Linkedin Badge](https://img.shields.io/badge/-Thiago-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/tgmarinho/)](https://www.linkedin.com/in/tgmarinho/) 
-[![Gmail Badge](https://img.shields.io/badge/-tgmarinho@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:tgmarinho@gmail.com)](mailto:tgmarinho@gmail.com)
+[![Twitter Badge](https://img.shields.io/badge/-@motherfocs-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/motherfocs)](https://twitter.com/motherfocs) [![Linkedin Badge](https://img.shields.io/badge/-Paulo_Vitor-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/tgmarinho/)](https://www.linkedin.com/in/tgmarinho/) 
+[![Gmail Badge](https://img.shields.io/badge/-paulo225vitor@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:paulo225vitor@gmail.com)](mailto:paulo225vitor@gmail.com)
+
+<!-- Corrigir o link para o linkedin -->
 
 ---
 
@@ -256,10 +259,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 Este projeto esta sobe a licença [MIT](./LICENSE).
 
-Feito com ❤️ por Thiago Marinho 👋🏽 [Entre em contato!](https://www.linkedin.com/in/tgmarinho/)
-
 ---
 
 ##  Versões do README
 
-[🚧Português 🇧🇷🚧](./README.md)  |  [🚧Inglês sem emojis 🇺🇸🚧](./README-en.md) | [🚧Portugues sem logo  🇧🇷🚧](./README-sem-logo.md) 
+[🚧Português 🇧🇷🚧](./README.md)  |  [🚧(Em construção) Inglês sem emojis 🇺🇸🚧](./) | [🚧(Em construção) Portugues sem logo  🇧🇷🚧](./) 
