@@ -243,7 +243,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 -   Protótipo:  **[Figma](https://www.figma.com/)**  →  **[Protótipo (happy)](https://www.figma.com/file/zwMPdDRrRPDEPKs7qWNWvd/Happy-Web-Copy)**
 -   SQL Editor: **[Beekeeper Studio](https://github.com/beekeeper-studio/beekeeper-studio/releases)**
--   API:
 -   Maps:  **[Leaflet](https://react-leaflet.js.org/en/)**
 -   Editor:  **[Visual Studio Code](https://code.visualstudio.com/)**  → Extensions:  
 -   Teste de API:  **[Insomnia](https://insomnia.rest/)**
