@@ -1,4 +1,3 @@
-
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/paulop2/Happy-NLW3?color=%2304D361">
 
