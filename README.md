@@ -3,9 +3,6 @@
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/paulop2/Happy-NLW3">
 
-  <a href="https://www.twitter.com/motherfocs/">
-    <img alt="Siga no Twitter" src="https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Fpaulop2%2FREADME">
-  </a>
   
   <a href="https://github.com/paulop2/Happy-NLW3/commits/master">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/paulop2/Happy-NLW3">
@@ -266,7 +263,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
  <sub><b>Paulo Vitor de Souza</b></sub></a> <a href="https://blog.rocketseat.com.br/author/thiago/" title="Rocketseat"></a>
  <br />
 
-[![Twitter Badge](https://img.shields.io/badge/-@motherfocs-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/motherfocs)](https://twitter.com/motherfocs) [![Linkedin Badge](https://img.shields.io/badge/-Paulo_Vitor-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/paulop2-vs/)](https://www.linkedin.com/in/paulop2-vs/) 
+[![Linkedin Badge](https://img.shields.io/badge/-Paulo_Vitor-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/paulop2-vs/)](https://www.linkedin.com/in/paulop2-vs/) 
 [![Gmail Badge](https://img.shields.io/badge/-paulo225vitor@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:paulo225vitor@gmail.com)](mailto:paulo225vitor@gmail.com)
 
 <!-- Corrigir o link para o linkedin -->
